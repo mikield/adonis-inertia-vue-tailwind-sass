@@ -1,0 +1,13 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": [
+    "resources/js/**/*",
+    "types/**/*"
+  ],
+  "compilerOptions": {
+    "paths": {
+      "Components/*": ["./resources/js/Components/*"],
+      "Types/*": ["./types/*"]
+    }
+  }
+}
